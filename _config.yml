@@ -4,7 +4,7 @@ theme: jekyll-theme-cayman
 #
 
 # اسم المدونة الذي سيظهر في الأعلى
-name: اسم المدونة
+name: أحمد العربيّ
 
 # وصف قصير للمدونة والذي سيظهر تحت اسمها وكجزء من عنوان المدونة في محركات البحث
 description: مدونة جديدة
@@ -13,7 +13,7 @@ description: مدونة جديدة
 # لإستخدام صورة هويتك في GitHub ضع https://github.com/<اسم_المستخدم>.png في المتغير، مثلا لهويتي الشخصية أستخدم:
 # avatar: https://github.com/a3ammar.png
 # ولإخفاء الصورة نهائيًا احذف الرابط من المتغير
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://i.imgur.com/TIVrqG0.png
 
 
 #
@@ -23,15 +23,15 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # لكل هوية تضعها هنا ستظهر أيقونة في أسفل المدونة
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: ahmed.elaraby.official@gmail.com
+  facebook: elaraby.senpai
   flickr:
-  github: a3ammar/jekyll-now
+  github: 
   instagram:
   linkedin:
   pinterest:
   rss: # ضع أي قيمة هنا لتظهر أيقونة RSS
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # هويتك في stackoverflow مثلا: "users/50476/bart-kiers"
   youtube: # إما channel/<عنوان_قناتك_الطويل> أو user/<اسم-مستخدمك>
   googleplus: # رقم التعريف عندما تزور هويتك (كل ما يتبع plus.google.com/)
