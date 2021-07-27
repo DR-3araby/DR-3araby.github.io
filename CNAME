@@ -1,1 +1,6 @@
 3araby.me
+$ dig 3araby.COM +nostats +nocomments +nocmd
+    > ;3araby.COM.                     IN      A
+    > 3araby.COM.              3592    IN      CNAME   DR-3araby.github.io.
+    > DR-3araby.github.io.      43192   IN      CNAME    svr3.educationhost.cloud.
+    >  svr3.educationhost.cloud.         22      IN      A       185.11.204.106
