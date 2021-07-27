@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 
-[email@domain.com](mailto:ahmed.elaraby.official@gmail.com)
+[ahmed.elaraby.official@gmail.com](mailto:ahmed.elaraby.official@gmail.com)
