@@ -1,10 +1,10 @@
-WSGIDaemonProcess yshalsager_website user=yshalsager group=yshalsager threads=4 python-home=/path/to/yshalsager_website/venv/
+WSGIDaemonProcess DR-3araby.github.io user=3araby group=3araby threads=4 python-home=/path/to/DR-3araby.github.io/venv/
 
 <VirtualHost *:80>
-     ServerName yshalsager.me
-     ServerAlias www.yshalsager.me
+     ServerName 3araby.me
+     ServerAlias www.3araby.me
 
-     WSGIScriptAlias / /path/to/yshalsager_website/personal_website.wsgi
+     WSGIScriptAlias / /path/to/DR-3araby.github.io/personal_website.wsgi
      <Directory /path/to/yshalsager_website/>
             WSGIScriptReloading On
             WSGIProcessGroup yshalsager_website
@@ -13,21 +13,21 @@ WSGIDaemonProcess yshalsager_website user=yshalsager group=yshalsager threads=4 
             AllowOverride None
             Require all granted
      </Directory>
-     ErrorLog /path/to/yshalsager_website/logs/error.log
+     ErrorLog /path/to/DR-3araby.github.io/logs/error.log
      LogLevel warn
-     CustomLog /path/to/yshalsager_website/logs/access.log combined
+     CustomLog /path/to/DR-3araby.github.io/logs/access.log combined
 RewriteEngine on
-RewriteCond %{SERVER_NAME} =www.yshalsager.me [OR]
-RewriteCond %{SERVER_NAME} =yshalsager.me
+RewriteCond %{SERVER_NAME} =www.3araby.me [OR]
+RewriteCond %{SERVER_NAME} =3araby.me
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 </VirtualHost>
 
 <VirtualHost *:443>
-    ServerName yshalsager.me
-    ServerAlias www.yshalsager.me
+    ServerName 3araby.me
+    ServerAlias www.3araby.me
 
-     WSGIScriptAlias / /path/to/yshalsager_website/personal_website.wsgi
-     <Directory /path/to/yshalsager_website/>
+     WSGIScriptAlias / /path/to/DR-3araby.github.io/personal_website.wsgi
+     <Directory /path/to/DR-3araby.github.io/>
             WSGIScriptReloading On
             WSGIProcessGroup yshalsager_website
             WSGIApplicationGroup %{GLOBAL}
@@ -35,9 +35,9 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
             AllowOverride None
             Require all granted
      </Directory>
-     ErrorLog /path/to/yshalsager_website/logs/error.log
+     ErrorLog /path/to/DR-3araby.github.io/logs/error.log
      LogLevel warn
-     CustomLog /path/to/yshalsager_website/logs/access.log combined
+     CustomLog /path/to/DR-3araby.github.io/logs/access.log combined
 
 RewriteEngine on
 # Some rewrite rules in this file were disabled on your HTTPS site,
