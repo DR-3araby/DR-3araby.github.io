@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}{{heading}}{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>{{ _('I\'m very open to messages, so, if you want to get in touch you send me a message using any of the methods
+                below and I will get back to you as soon as possible as long as you don\'t ask to ask and express your
+                intent clearly.') }}</p>
+            <ul>
+                <li>
+                    <p>
+                        <b><a href="https://t.me/yshalsager">{{ _('Telegram') }}</a></b>: {{ _('I usually respond
+                        faster to Telegram since it\'s my favourite social platform.') }}
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <b><a href="{{'mailto:ysh.alsager@hotmail.com?body=%s' % email_body}}"
+                        >{{ _('Email') }}</a></b>: {{ _('For traditional email you can click the link to send me a message.') }}
+                    </p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
