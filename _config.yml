@@ -6,7 +6,7 @@
 name: أحمد العربيّ
 
 # وصف قصير للمدونة والذي سيظهر تحت اسمها وكجزء من عنوان المدونة في محركات البحث
-description: مدونة جديدة
+description: قليل من الأحرف علّها تحدث تغيير
 
 # رابط صورة المدونة
 # لإستخدام صورة هويتك في GitHub ضع https://github.com/<اسم_المستخدم>.png في المتغير، مثلا لهويتي الشخصية أستخدم:
@@ -25,12 +25,12 @@ footer-links:
   email: ahmed.elaraby.official@gmail.com
   facebook: elaraby.senpai
   flickr:
-  github: 
+  github: DR-3araby 
   instagram:
   linkedin:
   pinterest:
-  rss: # ضع أي قيمة هنا لتظهر أيقونة RSS
-  twitter: 
+  rss: 3araby
+  twitter: El3arabySenpai
   stackoverflow: # هويتك في stackoverflow مثلا: "users/50476/bart-kiers"
   youtube: # إما channel/<عنوان_قناتك_الطويل> أو user/<اسم-مستخدمك>
   googleplus: # رقم التعريف عندما تزور هويتك (كل ما يتبع plus.google.com/)
@@ -45,7 +45,7 @@ google_analytics: G-3Q9YPS54DM
 
 # عنوان موقعك مثلاً http://barryclark.github.io
 # يستخدم هذا المتغير في الـRSS والـSitemap.xml
-url:
+url: 3araby.me
 
 # إذا كانت المدونة خاصة للصفحات المشاريع في GitHub (http://yourusername.github.io/repository-name مثلاً) عدل هذا المتغير ليطابق اسم المشروع
 baseurl: ""
