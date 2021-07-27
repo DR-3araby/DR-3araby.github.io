@@ -34,7 +34,7 @@ msgstr "أعمالي ومشاريعي"
 
 #: personal_website/main/ar/views.py:40 personal_website/main/en/views.py:40
 msgid "Hi yshalsager, I came across your website and would like to get in touch."
-msgstr "مرحبا يوسف، أرغب في التواصل معك بشأن "
+msgstr "مرحبا أحمد، أرغب في التواصل معك بشأن "
 
 #: personal_website/main/ar/views.py:42 personal_website/main/en/views.py:42
 msgid "Contact Me"
@@ -49,9 +49,9 @@ msgid ""
 "Programmer, and trainee writer at Loghat El-asr\n"
 "                magazine."
 msgstr ""
-"مرحبا! أنا يوسف، أُعرف على الإنترنت ب (yshalsager). أنا المطور الرئيسي "
-"لمشروع XiaomiFirmwareUpdater، ومطور بايثون، وكاتب تقني تحت التدريب بمجلة "
-"لغة العصر (مصر)."
+"مرحبا! أنا أحمد،  (3araby). أنا المطور الرئيسي "
+" "
+""
 
 #: personal_website/templates/about.html:14
 #, python-format
@@ -69,13 +69,10 @@ msgid ""
 "                        href=\"https://forum.xda-"
 "developers.com/member.php?u=6084385\">XDA-Developers Forums</a>."
 msgstr ""
-"منذ 2018 وأنا أقوم بتطوير الأدوات والبرامج وبعض المواقع بلغة بايثون، "
-"وحاليا أركز بشكل كبير على الأتمتة والبوتات وال web scraping. أغلب مشاريعي"
-" مفتوحة المصدر ومتاحة على موقع GitHub <a "
-"href=\"/%(lang)s/projects\">هنا</a>.<br/><br/>أيضا أقوم بشكل مستمر "
-"بالتعديل على هواتف أندرويد وتطوير الرومات المعدلة منذ 2014، جميع أعمالي "
-"متاحة على <a href=\"https://forum.xda-"
-"developers.com/member.php?u=6084385\">موقع XDA-Developers.</a>"
+" "
+""
+"  "
+" "
 
 #: personal_website/templates/about.html:24
 #, python-format
@@ -143,18 +140,16 @@ msgid "Unknown Error"
 msgstr "خطأ غير معروف"
 
 #: personal_website/templates/index.html:2
-msgid "Youssif Shaaban Alsager (yshalsager)"
-msgstr "يوسف شعبان الصغير (yshalsager)"
+msgid "Ahmed Elaraby (3araby)"
+msgstr "أحمد العربي أحمد (3araby)"
 
 #: personal_website/templates/index.html:13
-msgid "Hi, I'm Youssif Shaaban Alsager."
-msgstr "مرحبا! أنا يوسف شعبان الصغير."
+msgid "Hi, I'm Ahmed Elaraby."
+msgstr "مرحبا! أنا أحمد العربي ."
 
 #: personal_website/templates/index.html:14
 msgid ""
-"Python Developer, XDA Recognized Developer, and Technical\n"
-"                        Translator/Writer."
-msgstr "مطور بايثون وكاتب/مترجم تقني."
+
 
 #: personal_website/templates/projects.html:11
 msgid "Quick Navigate"
