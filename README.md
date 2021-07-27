@@ -1,1 +1,2 @@
-# DR-3araby.github.io السلام عليكم
+# DR-3araby.github.io 
+print("السلام عليكم")
