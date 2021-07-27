@@ -2,7 +2,7 @@
 name = "personal_website"
 version = "0.1.0"
 description = "My personal website"
-authors = ["yshalsager <ysh-alsager@hotmail.com>"]
+authors = ["3araby <ahmed.elaraby.official@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
